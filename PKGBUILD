@@ -1,5 +1,5 @@
 pkgname=openfortivpn
-pkgver=1.17.3
+pkgver=1.20.1
 pkgrel=1
 pkgdesc="Client for PPP+SSL VPN tunnel services"
 arch=(x86_64)
@@ -16,7 +16,7 @@ makedepends=(
 )
 backup=(etc/openfortivpn/config)
 source=(https://github.com/adrienverge/openfortivpn/archive/refs/tags/v${pkgver}.tar.gz)
-md5sums=('e4b9da5b3828741731f2010606df9849')
+md5sums=('2bd71a0ac4421958781b8b7dc7b49a72')
 
 prepare() {
   cd openfortivpn-${pkgver}
